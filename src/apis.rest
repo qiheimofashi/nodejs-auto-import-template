@@ -1,0 +1,59 @@
+@baseUrl=http://localhost:5351
+
+
+###
+post {{baseUrl}}/user/login
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJvcGVuaWQiOiJvTTcweDQ1OHlqWDNGMkJIemRKX3JMTWVqZWU0IiwidGVsZXBob25lIjoidGVzdCIsIm5hbWUiOiLmmZrpo47ljYPljYMiLCJhdmF0YXIiOiI0SHExaFJsUmRXcVZlNTAwZmVhN2E2NmJlZTRlMzg2ZTM4MGZlNDQ4YzlkNC5qcGVnIiwiaWQiOjgsImlhdCI6MTY3ODQzOTAzNiwiZXhwIjoxNjc4NDQyNjM2fQ.KJP5Ium7RwXMOXdBa2LgM5zuG7szB0MVMPuJkDZ_qAo
+Content-Type: application/json; charset=utf-8
+
+{
+"name":"小借光"
+}
+
+
+
+###
+post {{baseUrl}}/user/logout
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoi5aSn6KGX5YWJIiwiaWF0IjoxNzA0NDU4MjQwLCJleHAiOjE3MDQ1NDQ2NDB9.vG3Nk2geHTOxEXdhJbFlTVT30_Wk5eeXVza2pordAAU
+Content-Type: application/json; charset=utf-8
+
+{
+
+}
+
+
+###
+get {{baseUrl}}/user/22
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoi5aSn6KGX5YWJIiwiaWF0IjoxNzA0NDU4MjQwLCJleHAiOjE3MDQ1NDQ2NDB9.vG3Nk2geHTOxEXdhJbFlTVT30_Wk5eeXVza2pordAAU
+Content-Type: application/json; charset=utf-8
+
+{
+"name":"ddd",
+"mobile":"ddd",
+"password":"ddd"
+}
+
+
+
+###
+post {{baseUrl}}/getBlogTest
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoi5aSn6KGX5YWJIiwiaWF0IjoxNzA0NDU4MjQwLCJleHAiOjE3MDQ1NDQ2NDB9.vG3Nk2geHTOxEXdhJbFlTVT30_Wk5eeXVza2pordAAU
+Content-Type: application/json; charset=utf-8
+
+{
+"name":"ddd",
+"mobile":"ddd",
+"password":"ddd"
+}
+
+
+###
+post {{baseUrl}}/user/info
+token: eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJuYW1lIjoi5aSn6KGX5YWJIiwiaWF0IjoxNzA0NDU4MjQwLCJleHAiOjE3MDQ1NDQ2NDB9.vG3Nk2geHTOxEXdhJbFlTVT30_Wk5eeXVza2pordAAU
+Content-Type: application/json; charset=utf-8
+
+{
+"name":"ddd",
+"mobile":"ddd",
+"password":"ddd"
+}
